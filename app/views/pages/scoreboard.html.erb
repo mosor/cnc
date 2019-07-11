@@ -1,0 +1,7 @@
+<h2>GitHub Scoreboard</h2>
+<ol>
+<% @scoreboard.each do |k, v| %>
+<li><%= k %>: <%= v %></li>
+<% end %>
+</ol>
+<%= link_to 'back', root_path %>

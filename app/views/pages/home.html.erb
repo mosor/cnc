@@ -1,0 +1,10 @@
+<h2>GitHub Repository</h2>
+<%= form_tag pages_scoreboard_path do %>
+  <%= label_tag :username %>
+  <%= text_field_tag :username %>
+  <%= label_tag :password %>
+  <%= password_field_tag :password %>
+  <%= label_tag :repo %>
+  <%= text_field_tag :repo %>
+  <%= submit_tag 'submit' %>
+<% end %>
